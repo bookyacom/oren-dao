@@ -1,0 +1,25 @@
+{
+  "name": "oren-dao",
+  "version": "1.0.0",
+  "description": "Oriento Record Object",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bookyacom/oren-dao.git"
+  },
+  "keywords": [
+    "orientdb",
+    "oriento",
+    "record",
+    "instance"
+  ],
+  "author": "Yu Jin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bookyacom/oren-dao/issues"
+  },
+  "homepage": "https://github.com/bookyacom/oren-dao#readme"
+}
