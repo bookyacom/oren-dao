@@ -27,8 +27,8 @@ database
     return new Vertex(database, record['@rid'], record);
   })
   .all()
-  .then(function(vertexes) {
-    let vertex = vertexes.shift();
+  .then(function(vertices) {
+    let vertex = vertices.shift();
 
     // update property
     vertex.property = 'red';
