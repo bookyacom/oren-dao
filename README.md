@@ -39,7 +39,7 @@ database
 ```
 
 ## Options
-### Vertex
+### 1. Vertex
 **`dao.Vertex(db, rid, record)` -> `Vertex Object`**
 #### db (required)
 Type: `Object`  
@@ -53,7 +53,7 @@ Record Id
 Type: `Object`  
 Record Object
 
-### Edge
+### 2. Edge
 **`dao.Edge(db, rid, record)` -> `Edge Object`**
 #### db (required)
 Type: `Object`  
@@ -67,7 +67,7 @@ Record Id
 Type: `Object`  
 Record Object
 
-### Document
+### 3. Document
 **`dao.Document(db, rid, record)` -> `Document Object`**
 #### db (required)
 Type: `Object`  
@@ -81,7 +81,7 @@ Record Id
 Type: `Object`  
 Record Object
 
-### DAO API
+### 4. DAO API
 **`.save()`**  
 Save current DAO to database
 
