@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/bookyacom/oren-dao/issues"
   },
-  "homepage": "https://github.com/bookyacom/oren-dao#readme"
+  "homepage": "https://github.com/bookyacom/oren-dao#readme",
+  "dependencies": {
+    "lodash.assign": "^3.2.0"
+  }
 }
