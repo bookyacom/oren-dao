@@ -5,7 +5,7 @@
 ``` JS
 const Oriento = require('oriento');
 const dao     = require('oren-dao');
-const vertex  = dao.Vertex;
+const Vertex  = dao.Vertex;
 
 const server = Oriento();
 
@@ -19,7 +19,7 @@ database
   .select()
   .from('Test')
   .transform(function(record) {
-    return new vertex(database, record['@rid'], record);
+    return new Vertex(database, record['@rid'], record);
   })
   .all()
   .then(function(vertexes) {
