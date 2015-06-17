@@ -87,3 +87,7 @@ Save current DAO to database
 
 **`.delete()`**  
 Delete current record from database
+
+## More Information
+- [OrientDB](https://github.com/orientechnologies/orientdb)
+- [Oriento](https://github.com/codemix/oriento)
