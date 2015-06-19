@@ -4,7 +4,7 @@
   "description": "Oriento Record Object",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --harmony test"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,10 @@
     "url": "https://github.com/bookyacom/oren-dao/issues"
   },
   "homepage": "https://github.com/bookyacom/oren-dao#readme",
+  "devDependencies": {
+    "debug": "^2.2.0",
+    "orientjs": "^2.0.0"
+  },
   "dependencies": {
     "lodash.assign": "^3.2.0"
   }

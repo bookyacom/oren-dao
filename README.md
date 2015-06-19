@@ -1,18 +1,18 @@
 # Oren Dao
+
 > Transform orientdb record using oriento to a DAO
 
-## Installation
-```
-npm install --save oren-dao
-```
+`DAO` is short for Data Access Object. In Oren, this library is provided to make it easy to map logical data structures to records in the database spread out across different classes, linked together with edges and so forth. In short, it makes it easier to define your logical data structures regardless of how data is stored in your orientdb database.
+
+
 
 ## Example
 ``` JS
-const Oriento = require('oriento');
-const dao     = require('oren-dao');
-const Vertex  = dao.Vertex;
+const OrientDB = require('orientjs');
+const dao      = require('oren-dao');
+const Vertex   = dao.Vertex;
 
-const server = Oriento();
+const server = OrienDB();
 
 const database = server.use({
   name     : 'test',
