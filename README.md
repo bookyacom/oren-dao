@@ -1,4 +1,4 @@
-# Oren Dao
+# Oren Dao [![Dependency Status](https://gemnasium.com/badges/github.com/bookyacom/oren-dao.svg)](https://gemnasium.com/github.com/bookyacom/oren-dao)
 
 > Transform orientdb record using oriento to a DAO
 
